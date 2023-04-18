@@ -54,7 +54,6 @@ app.post('/jobs/:id/apply', (req, res) => {
         <p><strong>Email:</strong> ${email}</p>
         <p><strong>Phone:</strong> ${phone}</p>
         <p><strong>Date of Birth:</strong> ${dob}</p>
-        <p><strong>Position:</strong> ${position}</p>
         <p><strong>Cover Letter:</strong> ${coverletter}</p>
       `
     };
