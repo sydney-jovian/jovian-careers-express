@@ -40,7 +40,7 @@ app.post('/jobs/:id/apply', (req, res) => {
     console.log('req.body', req.body);
     const { name, email, phone, dob, position, coverletter } = req.body;
 
-    console.log('New Application', {name, email, phone, dob, position, coverletter});
+    // console.log('New Application', {name, email, phone, dob, position, coverletter});
 
     const id = req.params.id;
     const matchedJob = JOBS.find(job => job.id.toString() === id);
